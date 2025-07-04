@@ -120,7 +120,7 @@ def post_inline_comments(change_id, revision_id, file_to_comments):
 
 
 def review_change_inline(change_id, revision_id, file_path):
-    print(f"🔍 Reviewing {file_path} line-by-line...")
+    print(f" Reviewing {file_path} line-by-line...")
 
     added_lines = get_patch_added_lines(change_id, revision_id, file_path)
     if not added_lines:
