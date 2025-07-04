@@ -99,7 +99,7 @@ def generate_llm_comment_for_line(code_line):
         content = response.json()["comment"].strip()
         return content if content else None
     except Exception as e:
-        print(f" LLM failed for line: {code_line} → {e}")
+        print(f" LLM failed for line: {e}")
         return None
 
 
