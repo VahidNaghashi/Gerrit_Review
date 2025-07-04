@@ -1,4 +1,5 @@
 name: Gerrit LLM Reviewer
+continue-on-error: true  # Add this temporarily
 
 on:
   workflow_dispatch:      # Manual trigger from GitHub UI
